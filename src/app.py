@@ -19,7 +19,7 @@ def login_template():
 
 @app.route('/register')
 def register_template():
-    return render_template('register.html')
+    return render_template('Register.html')
 
 @app.before_first_request
 def initialize_database():
