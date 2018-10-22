@@ -3,8 +3,8 @@ from flask import render_template
 from flask import request
 from flask import session
 
-from src.common.database import Database
-from src.models.user import User
+from common.database import Database
+from models.user import User
 
 app = Flask(__name__)
 app.secret_key = "imageLabSSS"
